@@ -1,0 +1,24 @@
+#cont1{
+    width: 80px;
+    margin-left: 300px;
+    background-color: orange;
+    display: inline;
+}
+#cont2{
+    display: inline;
+    margin-left: 1090px;
+}
+#cont3{
+    display: inline;
+    margin-right:
+}
+#cont4{
+    display: inline;
+    margin-right: 200px;
+}
+#basic-cont{
+    background-color: rgb(209, 209, 209);
+}
+.col3{
+    height: 200px;
+}

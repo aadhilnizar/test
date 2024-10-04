@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* background-color: aqua; */
+            width: 70%;
+            display: grid;
+            grid-template-columns: 20% 45%;
+            padding: 100px 300px;
+            height: 400px;
+        }
+        .sub-header{
+          background-color: rgb(103, 250, 181);
+          border: 2px solid black;
+          padding: 10px;
+          text-align: center;
+          align-content: center;
+        }
+        .sub1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+        }
+        .sub2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .sub3{
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }.sub4{
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-header sub1">Header</div>
+        <div class="sub-header sub3">Side Bar</div>
+       
+        <div class="sub-header sub4">Main Content</div>
+      
+        <div class="sub-header sub2">Footer</div>
+     
+    </div>
+</body>
+</html>

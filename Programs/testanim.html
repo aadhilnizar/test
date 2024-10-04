@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-img{
+            height: 80%;
+            width: 80%;
+            padding-left: 125px;
+            position: relative;
+           
+        }
+        .main-img{
+            position: relative;
+            bottom: 160px;
+            height: 200px;
+            width: 250px;
+            padding-left: 40%;
+            animation: test 5s;
+            animation-timing-function: linear;
+        }
+        @keyframes test{
+            0%{
+                bottom: 160px;
+                left: 0px;
+                }
+                20%{
+                bottom: 360px;
+                left: 65px;
+                transform:  scale(0.8,0.8);
+                }
+                40%{
+                bottom: 460px;
+                left: 120px;
+                transform:  scale(0.6,0.6);
+                }
+                60%{
+                bottom: 560px;
+                left: 170px;
+                transform:  scale(0.4,0.4);
+                }
+                80%{
+                bottom: 660px;
+                left: 180px;
+                transform:  scale(0.3,0.3);
+                }
+                100%{
+                    bottom: 700px;
+                    transform:  scale(0.2,0.2);
+                left: 200px;          
+                  }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="./assets/runway.jfif" class="bg-img">
+    <img src="./assets/flight2.png" class="main-img">
+</body>
+</html>
